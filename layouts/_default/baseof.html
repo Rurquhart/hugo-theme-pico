@@ -12,6 +12,7 @@
 	<div id="top" class="dark"></div>
 
 	{{- partial "dev/size-indicator.html" . -}}
+	{{- partial "header.html" . -}}
 
 	{{ $mainClass := "" }}
 	{{ if .IsHome }}
@@ -24,6 +25,7 @@
 
 	<div class="absolute bottom-0 w-full">
 		{{/* {{- partial "dev/parameters.html" . -}} */}}
+		{{- partial "footer.html" . -}}
 	</div>
 </body>
 
